@@ -3,7 +3,7 @@ import img2 from "../../assets/images/instaBurger.png";
 import img3 from "../../assets/images/eyeKey.jpg";
 import img4 from "../../assets/images/mealsApp.jpg";
 import img5 from "../../assets/images/buzzChat.jpeg";
-import img6 from "../../assets/images/SpotyTube.jpeg";
+import img6 from "../../assets/images/spotyTube.jpeg";
 
 export const ProjectList = [
   {
@@ -12,12 +12,7 @@ export const ProjectList = [
     tech: "React.js, express.js, mongoDB, socket.io, JWT, bcrypt, Chakhra-UI, Redux.js",
     link: "Ansh2004P/Backend",
   },
-  {
-    name: "Buzz Chat",
-    image: img5,
-    tech: "React.js, express.js, mongoDB, socket.io, JWT, bcrypt, Chakhra-UI, Redux.js",
-    link: "Ansh2004P/Backend",
-  },
+
   {
     name: "SilverScreen Oasis",
     image:
