@@ -4,7 +4,7 @@ import ColoredScrollbars from "react-scrollbars-custom";
 
 const ProjectSection = () => {
   return (
-    <div className="py-6 mt-10 w-full">
+    <div id="" className="py-6 mt-10 w-full">
       <h1 className="text-slate-400 font-bold text-4xl ml-5">Projects</h1>
       <div className="flex flex-row w-full pt-10">
         <ColoredScrollbars style={{ height: 380 }} thumbsize={80}>

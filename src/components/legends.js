@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const lst = sideBarList;
 
 const Legends = () => {
+
   return (
     <div className="h-full w-[16rem] py-5 ml-5 mb-4 rounded-xl flex flex-col justify-evenly  bg-[#1C1B23]">
       {lst.map((item, index) => {
@@ -14,6 +15,7 @@ const Legends = () => {
             <div
               key={index}
               className="hover:scale-110 transition-all duration-300 cursor-pointer "
+             
             >
               <AsideInfo text={item?.name} icon={item?.icon} />
             </div>

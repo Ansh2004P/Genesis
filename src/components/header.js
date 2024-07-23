@@ -2,7 +2,10 @@ import Resume from "../../assets/images/resume.pdf";
 
 const Header = () => {
   return (
-    <div className="bg-cover bg-cover-image bg-center h-44  w-full relative">
+    <div
+      id="home"
+      className="bg-cover bg-cover-image bg-center h-44  w-full relative"
+    >
       <div className="backdrop-blur-lg h-44 w-full flex flex-row justify-evenly">
         <div className="mt-[15px] ml-[4%] bg-logo h-[140px] w-[140px] grow-0 shrink-0 rounded-full p-2 bg-center bg-cover ring-4 ring-gray-300 ring-inset shadow-xl shadow-zinc-800"></div>
         <span className="mt-[60px] mr-[45%] text-white font-sans text-pretty font-bold text-4xl ">

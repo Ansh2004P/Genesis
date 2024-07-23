@@ -4,6 +4,7 @@ import About from "./about";
 import Experience from "./experience";
 import ProjectSection from "./project";
 import SkillSection from "./skills";
+import { forwardRef } from "react";
 
 const MainSection = () => {
   return (
