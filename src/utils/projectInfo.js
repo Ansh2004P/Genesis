@@ -3,8 +3,15 @@ import img2 from "../../assets/images/instaBurger.png";
 import img3 from "../../assets/images/eyeKey.jpg";
 import img4 from "../../assets/images/mealsApp.jpg";
 import img5 from "../../assets/images/buzzChat.jpeg";
+import img6 from "../../assets/images/SpotyTube.jpeg";
 
 export const ProjectList = [
+  {
+    name: "Buzz Chat",
+    image: img5,
+    tech: "React.js, express.js, mongoDB, socket.io, JWT, bcrypt, Chakhra-UI, Redux.js",
+    link: "Ansh2004P/Backend",
+  },
   {
     name: "Buzz Chat",
     image: img5,
@@ -29,6 +36,12 @@ export const ProjectList = [
     image: img1,
     tech: "Flutter, Firebase, Cloud Firestore, REST API, Riverpod for State Management, Material UI",
     link: "siddharthO3/Apoorv-App",
+  },
+  {
+    name: "SpotyTube",
+    image: img6,
+    tech: "Node.js, puppeteer, readline-sync, ",
+    link: "Ansh2004P/SpotyTube",
   },
   {
     name: "Eye Key",
