@@ -2,7 +2,7 @@ import { SkillInfo } from "../utils/skill_Info";
 
 const SkillSection = () => {
   return (
-    <div className="flex flex-col h-fit w-full mt-12">
+    <section  className="flex flex-col h-fit w-full mt-12">
       <span className="text-slate-400 font-bold text-4xl ml-5">
         What I Know
       </span>
@@ -32,7 +32,7 @@ const SkillSection = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

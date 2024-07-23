@@ -1,28 +1,13 @@
 import AsideInfo from "./asideInfo";
-import { sideBarList, socials } from "../utils/sideBarList";
+import { socials } from "../utils/sideBarList";
 import { Link } from "react-router-dom";
 
-const lst = sideBarList;
-
 const Legends = () => {
-
   return (
-    <div className="h-full w-[16rem] py-5 ml-5 mb-4 rounded-xl flex flex-col justify-evenly  bg-[#1C1B23]">
-      {lst.map((item, index) => {
-        {
-          return (
-            // console.log(item),
-            <div
-              key={index}
-              className="hover:scale-110 transition-all duration-300 cursor-pointer "
-             
-            >
-              <AsideInfo text={item?.name} icon={item?.icon} />
-            </div>
-          );
-        }
-      })}
-      <span className="text-[#86858D] ml-6 font-sans text-lg">Socials</span>
+    <div className="h-full w-[16rem] ml-5 mb-4 rounded-xl flex flex-col justify-around bg-[#1C1B23]">
+      <span className="text-[#86858D] align-top font-sans text-2xl flex justify-center mr-5 font-bold">
+        Socials
+      </span>
       {socials.map((item, index) => {
         {
           return (

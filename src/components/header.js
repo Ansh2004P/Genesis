@@ -2,7 +2,8 @@ import Resume from "../../assets/images/resume.pdf";
 
 const Header = () => {
   return (
-    <div
+    <section
+      
       id="home"
       className="bg-cover bg-cover-image bg-center h-44  w-full relative"
     >
@@ -19,7 +20,7 @@ const Header = () => {
           </div>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 export default Header;
